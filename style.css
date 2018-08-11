@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+body {
+  background: url("./images/image1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* COLUMNS 1,2 */
+
+.red1 {
+  background: rgba(22, 36, 61, 0.8);
+  padding: 2rem 0rem 2rem 0rem;
+  font-family: 400 100%/1.5em "Roboto Slab", Arial, sans-serif;
+}
+
+.red2 {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8) 0.9%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 2rem 2rem 0rem 2rem;
+  opacity: 0.9;
+  color: #323739;
+}
+
+/* DIV with telephone number */
+
+.phone {
+  display: block;
+  padding: 1rem 0;
+  background: rgba(22, 36, 61, 0.8);
+  border-top: 1px solid #495064;
+  border-bottom: 1px solid #495064;
+  color: #fff;
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #d0d3d8;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background: #6a7288;
+  clear: both;
+  margin: 1.4em 0;
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+/* Fonts h1, h2 */
+
+h1,
+h2 {
+  display: block;
+  margin-bottom: 1em;
+  font-family: "Cinzel", serif;
+  font-weight: lighter;
+  color: #15294b;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+/* Icon, time, footer */
+
+.time {
+  background: url("./images/icon-open.png") no-repeat left center;
+  padding-left: 3.5rem;
+  border-right: 1px solid grey;
+}
+
+/* Kontakt button */
+
+.kontakt {
+  background: #15294b;
+  display: block;
+  color: white;
+  padding: 1rem 0rem;
+  transition: 1s;
+  letter-spacing: 1px;
+}
+
+.kontakt:hover {
+  color: white;
+  text-decoration: none;
+  background: rgba(22, 36, 61, 0.7);
+}
+
+@media screen and (max-width: 992px) {
+  .time {
+    border: none;
+  }
+}
